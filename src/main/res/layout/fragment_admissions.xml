@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView android:id="@+id/textt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="65dp" android:layout_marginTop="125dp" android:text="IT Department Admission Requirements"/>
+    <TextView android:id="@+id/infotext3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20dp" android:layout_marginTop="160dp" android:text="To be unconditionally accepted to complete any programme within the Information Technology Department, individuals should possess a minimum of five(5) subjects at the GCE or CSEC level including the mandatory English Language and Mathematics at grades A, B, C or 1, 2, 3 respectively. A grade pass of 3 in CSEC should be obtained after 1998"/>
+    <TextView android:id="@+id/infotext4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20dp" android:layout_marginTop="280dp" android:text="A pass in CSEC/CAPE or GCE Information Technology is also required within the five(5) subjects."/>
+    <TextView android:id="@+id/infotext5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20dp" android:layout_marginTop="340dp" android:text="Apply via the link below"/>
+    <TextView android:id="@+id/txtLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20dp" android:layout_marginTop="380dp" android:text="https://ucc.edu.jm/programmes/undergraduate" android:autoLink="all"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:layout_width="match_parent" android:layout_height="78dp" android:id="@+id/toolbar" android:background="#34A7F4" android:elevation="4dp" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/fragment_container">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>

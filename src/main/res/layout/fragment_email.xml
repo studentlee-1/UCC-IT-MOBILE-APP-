@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginStart="100dp"
+        android:id="@+id/emailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Send Email">
+
+    </TextView>
+
+    <EditText
+        android:layout_below="@+id/emailTxt"
+        android:layout_marginTop="20dp"
+        android:id="@+id/recipient"
+        android:hint="Recipient"
+        android:width="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/subject"
+        android:layout_below="@id/recipient"
+        android:hint="Subject"
+        android:width="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/body"
+        android:lines="9"
+        android:ems="15"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textborder">
+    </EditText>
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/body"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Send">
+    </Button>
+
+
+
+</RelativeLayout>
