@@ -1,4 +1,4 @@
-# UCC-IT-MOBILE-APP-group-6
+# UCC-IT-MOBILE-APP-group-
 This application will allow students to access resources such as , 
 courses, admission requirements, faculty/staff members, 
 social media associated with the schools and allow them to
