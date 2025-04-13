@@ -1,4 +1,4 @@
-# UCC-IT-MOBILE-APP-group-
+# UCC-IT-MOBILE-APP-DevWizs
 This application will allow students to access resources such as , 
 courses, admission requirements, faculty/staff members, 
 social media associated with the schools and allow them to
